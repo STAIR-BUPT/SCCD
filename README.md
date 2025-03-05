@@ -21,3 +21,22 @@ SCCD是首个**中文**的**基于会话**的网络欺凌数据集，填补了�
 </div>
 
 **声明：数据集包含有害违规内容示例，均不代表本团队立场。**
+## 引用
+```bibtex
+@article{Yang2025SCCDAS,
+  title={SCCD: A Session-based Dataset for Chinese Cyberbullying Detection},
+  author={Qingpo Yang and Yakai Chen and Zihui Xu and Yuming Shang and Sanchuan Guo and Xi Zhang},
+  journal={ArXiv},
+  year={2025},
+  volume={abs/2501.15042},
+  url={https://api.semanticscholar.org/CorpusID:275821009}
+}
+```
+
+## 关于我们
+
+STAIR (Secure and Trustworthy AI Research) 团队隶属于北京邮电大学网络空间安全学院和可信分布式计算与服务教育部重点实验室。团队主要研究安全可信人工智能技术，及在网络空间治理领域的应用，近年来在网络内容与行为分析、大模型安全等方面承担了国家重点研发计划等多项重要科研任务。
+
+**联系我们**
+
+zhangx@bupt.edu.cn
