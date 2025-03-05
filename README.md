@@ -11,20 +11,20 @@ SCCD是首个**中文**的**基于会话**的网络欺凌数据集，填补了�
 我们选择微博作为数据源，采用三种数据收集策略获取会话，以丰富数据集的多样性和代表性。针对每个会话，人工标注是否网络欺凌，若为欺凌，额外标注欺凌程度。针对每个会话的所有评论，我们提出了基于LLM的人在回路标注过程，对每个评论进行了细粒度标注，包括：是否网络欺凌、表达方式（显式或隐式）、是否讽刺、针对个人还是群体、针对的群体类型（性别、地域、种族、LGBTQ）。
 
 <div align="center">
-<img src="./assets/session.png" style="width: 70%; height: auto;">
+<img src="./assets/construction.png" style="width: 70%; height: auto;">
 </div>
 
 ## 数据集介绍
 数据集共包含677个会话，每个会话都被标注为是否网络欺凌，并对欺凌严重程度进行了系统化分级（轻度、中度和重度）。网络欺凌会话占比为52.3%，这意味着数据集是平衡的。
 
 <div align="center">
-<img src="./assets/session.png">
+<img src="./assets/session.png" style="width: 50%; height: auto;">
 </div>
 
 677个会话总共包含38999条评论，其中有9805条评论是网络欺凌的。针对网络欺凌评论，我们补充了四个细粒度的标签，弥补了现有研究的局限性。SCCD中有三种类型的评论：针对群体的网络欺凌评论、针对个人的网络欺凌评论和正常评论。
 
 <div align="center">
-<img src="./assets/examples.png">
+<img src="./assets/examples.png" style="width: 70%; height: auto;">
 </div>
 
 **声明：数据集包含有害违规内容示例，均不代表本团队立场。**
