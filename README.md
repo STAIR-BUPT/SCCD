@@ -30,13 +30,16 @@ SCCD是首个**中文**的**基于会话**的网络欺凌数据集，填补了�
 **声明：数据集包含有害违规内容示例，均不代表本团队立场。**
 ## 引用
 ```bibtex
-@article{Yang2025SCCDAS,
-  title={SCCD: A Session-based Dataset for Chinese Cyberbullying Detection},
-  author={Qingpo Yang and Yakai Chen and Zihui Xu and Yuming Shang and Sanchuan Guo and Xi Zhang},
-  journal={ArXiv},
-  year={2025},
-  volume={abs/2501.15042},
-  url={https://api.semanticscholar.org/CorpusID:275821009}
+@inproceedings{yang-etal-2025-sccd,
+    title = "{SCCD}: A Session-based Dataset for {C}hinese Cyberbullying Detection",
+    author = "Yang, Qingpo  and Chen, Yakai  and Xu, Zihui  and Shang, Yu-ming  and Guo, Sanchuan  and Zhang, Xi",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.639/",
+    pages = "9533--9545"
 }
 ```
 
